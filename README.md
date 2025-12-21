@@ -31,7 +31,7 @@ The system extracts entities and relationships from heterogeneous financial docu
 
 ## 📊 Project Architecture
 
-![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/Images/Architecture.png)
+![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/Images/Architecture.png)
 
 
 ## 📁 Project Structure
@@ -94,7 +94,7 @@ I collected and curated financial data from multiple sources:
 - **JSON-based financial datasets**  
 
 To ensure efficient experimentation and reduce processing time during early development, CSV datasets were intentionally limited to **100–200 rows**.
-![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/Images/STORAGE%20LAYER.png)
+![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/Images/STORAGE%20LAYER.png)
 ```
 ## Dataset Structure
 
@@ -109,7 +109,7 @@ Data/
 # 2. Document Preprocessing Pipeline
 Implemented a robust preprocessing pipeline to standardize heterogeneous data formats.
 
-![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/Images/Preprocessing%20Layer.png)
+![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/Images/Preprocessing%20Layer.png)
 
 ## Key Steps
 - **Text cleaning** (regex-based normalization)
@@ -135,7 +135,7 @@ File: Preprocessing.py
 
 # 3. Knowledge Graph Construction (GraphRAG)
 
-![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/Images/Knowledge%20Layer.png)
+![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/Images/Knowledge%20Layer.png)
 
 ## Graph Design
 I constructed a semantic knowledge graph using NetworkX, enriched with entity relationships extracted via LLM prompts.
@@ -177,7 +177,7 @@ The workflow implements multiple functions, including:
 
 Additionally, an answer evaluation module is implemented to assess the quality of the response. This evaluation checks the answer length, verifies whether the answer is supported by source documents, and calculates a confidence score. If the confidence score is 50% or above, the result is marked as High confidence; otherwise, it is marked as Medium confidence.
 
-![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/Images/Application%20Layer.png)
+![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/Images/Application%20Layer.png)
 
 ## Agent Capabilities
 - User intent understanding
@@ -246,7 +246,7 @@ File: Config.py
 
 The Streamlit UI is the final layer of the system and displays all important details of the GraphRAG application. It provides a simple chat interface that allows users to ask questions and interact with the agent.
 
-![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/Images/Presentation%20Layer.png)
+![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/Images/Presentation%20Layer.png)
 
 
 
