@@ -369,3 +369,54 @@ File: Streamlit.py
 ![History](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/ProjectImage/Past_Interactions_History.png)
 
 
+# 🚀 How to Clone and Run the Project Locally
+
+Follow the steps below to run this project on your local system.
+
+---
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task.git
+```
+
+
+## 2️⃣ Create Virtual Environment (Recommended)
+
+#### For Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+#### For macOS / Linux
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## 3️⃣ Install Required Packages
+Make sure the requirements.txt file is present in the project folder.
+```bash
+pip install -r requirements.txt
+```
+## 4️⃣ Run the Streamlit Application
+
+After successful installation, run the application using:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+## 5️⃣ Open in Browser
+Streamlit will automatically open the application in your default browser.
+If it does not open automatically, manually visit:
+
+http://localhost:8501
+
+## ⚠️ Note
+- First run may take some time because multiple files, graphs, and models are loaded.
+- Ensure Python or above is installed on your system.
+- This project is also deployed on Streamlit Cloud.
+    👉 Live demo link is available in the main README file.
+
