@@ -36,7 +36,7 @@ def main():
     st.title("📊 Finance GraphRAG Assistant")
     st.markdown("*Intelligent Financial Analysis with Knowledge Graphs*")
     
-    # Initialize memory
+
     if 'memory' not in st.session_state:
         st.session_state.memory = AgentMemory()
         st.session_state.memory.load()
@@ -63,7 +63,7 @@ def main():
                 st.cache_resource.clear()
                 st.rerun()
     
-    # Load system
+
     with st.spinner("🔄 Loading knowledge base..."):
         try:
             chunks, embeddings = preprocess()
@@ -74,14 +74,14 @@ def main():
             col2.metric("🧩 Chunks", len(chunks))
             col3.metric("🕸️ Graph Nodes", G.number_of_nodes())
             
-            # Additional graph metrics
+            
             if show_graph_stats:
                 col4, col5, col6 = st.columns(3)
                 col4.metric("🔗 Graph Edges", G.number_of_edges())
                 col5.metric("📊 Avg Degree", f"{sum(dict(G.degree()).values()) / max(G.number_of_nodes(), 1):.2f}")
                 col6.metric("🌐 Connected", "Yes" if nx.is_weakly_connected(G) else "No")
             
-            # Warning if graph is empty
+            
             if G.number_of_nodes() == 0:
                 st.warning("⚠️ Knowledge graph is empty. The system may not provide graph-based insights.")
             elif G.number_of_edges() == 0:
