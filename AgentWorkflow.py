@@ -1,7 +1,3 @@
-# ================================
-# AGENT WORKFLOW COMPONENTS
-# ================================
-
 import re
 import numpy as np
 import networkx as nx
@@ -10,7 +6,6 @@ from Config import GROQ_MODEL, client, embed_model
 
 
 class IntentClassifier:
-    """LLM-based intent classifier"""
     
     INTENTS = [
         "factual_query",
@@ -49,7 +44,6 @@ Intent (one word):"""
 
 
 def graph_aware_retrieval(G, query, k=5):
-    """Graph-aware retrieval with node importance"""
     keywords = query.lower().split()
     node_scores = {}
     
@@ -57,24 +51,22 @@ def graph_aware_retrieval(G, query, k=5):
         score = 0
         node_lower = node.lower()
         
-        # Keyword matching
+    
         for kw in keywords:
             if kw in node_lower:
                 score += 2
         
-        # PageRank bonus
+
         score += G.nodes[node].get("pagerank", 0) * 10
         
-        # Frequency bonus
         score += G.nodes[node].get("frequency", 0) * 0.1
         
         if score > 0:
             node_scores[node] = score
     
-    # Get top nodes
+
     top_nodes = sorted(node_scores.items(), key=lambda x: x[1], reverse=True)[:k]
     
-    # Get subgraph with neighbors
     nodes_to_include = set()
     for node, _ in top_nodes:
         nodes_to_include.add(node)
@@ -85,12 +77,11 @@ def graph_aware_retrieval(G, query, k=5):
 
 
 def multi_hop_reasoning(G, start_node, end_node, max_hops=3):
-    """Find paths between entities for multi-hop reasoning"""
     try:
         paths = []
         for path in nx.all_simple_paths(G, start_node, end_node, cutoff=max_hops):
             paths.append(path)
-            if len(paths) >= 3:  # Limit paths
+            if len(paths) >= 3:  
                 break
         return paths
     except:
@@ -98,21 +89,19 @@ def multi_hop_reasoning(G, start_node, end_node, max_hops=3):
 
 
 def retrieve_with_graph(query, chunks, embeddings, G, k=5):
-    """Hybrid retrieval: vector + graph"""
-    # Vector retrieval
+
+
     q_emb = embed_model.encode([query])
     sims = cosine_similarity(q_emb, embeddings)[0]
     top_indices = np.argsort(sims)[-k:][::-1]
     vector_chunks = [chunks[i] for i in top_indices]
     
-    # Graph retrieval
     subgraph = graph_aware_retrieval(G, query, k)
     
     return vector_chunks, subgraph
 
 
 def generate_chain_of_thought(query, context, graph_info):
-    """Hidden chain-of-thought reasoning"""
     cot_prompt = f"""Think step by step about this query:
 
 Query: {query}
@@ -142,7 +131,6 @@ Reasoning:"""
 
 
 def generate_answer(query, context, graph_info, reasoning, memory_context=""):
-    """Final answer generation with all context"""
     prompt = f"""You are a financial AI assistant. Use the provided context and graph relationships to answer accurately.
 
 Question: {query}
