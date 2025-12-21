@@ -1,0 +1,71 @@
+2.1 COST OF CAPITAL
+In this unit, we focus on the concept of the cost of capital as a discount rate and the
+procedure of its measurement.
+The opportunity cost of capital (or simply, the cost of capital) for a project is the
+discount rate for discounting its cash flows. The project's cost of capital is the minimumrequired rate of return on funds committed to the project, which depends on the
+riskiness of its cash flows. Since the investment projects undertaken by a firm may differ
+in risk, each one of them will have its own unique cost of capital. It should be clear at
+the outset that the cost of capital for a project is defined by its risk, rather than the
+characteristics of the firm undertaking the project.
+The firm represents the aggregate of investment projects undertaken by it.
+Therefore, the firm's cost of capital will be the overall, or average, required rate of return
+on the aggregate of investment projects. Thus the firm's cost of capital is not the same
+thing as the project's cost of capital. Can we use the firm's cost of capital for discounting
+the cash flows of an investment projects. The firm's cost of capital can be used for
+discounting the cash flows of those investment projects, which have risk equivalent to
+the average risk of the firm. As a first step, however, the firm's cost of capital can be
+used as a standard for establishing the required rates of return of the individual
+investment projects. In the absence of a reliable formal procedure of calculating the cost
+of capital for projects, the firm's cost of capital can be adjusted upward or downward to
+account for risk differentials of investment projects. That is, an investment project's
+required rate of return may be equal to the firm's cost of capital plus or minus a risk
+adjustment factor depending on whether the project's risk is higher or lower than the
+firm's risk. There does exit a methodology to calculate its cost of capital for projects. The
+objective method of calculating the risk-adjusted cost of capital for projects is to use the
+capital asset pricing model (CAPM), as we show later in this unit.
+2.1.1 Meaning and Significance of Cost of Capital
+We should recognize that the cost of capital is one of the most difficult and disputed
+topics in the finance theory. Financial experts express conflicting opinions as to the
+correct way in which the cost of capital can be measured. Irrespective of the
+measurement problems, it is a concept of vital importance in the financial decision
+making. It is useful as a standard for:  evaluating investment decisions,  designing a firm's debt policy, and
+ appraising the financial performance of top management
+Investment evaluation
+The primary purpose of measuring the cost of capital is its use as a financial
+standard for evaluating the investment projects. In the NPV method, an investment
+project is accepted if it has a positive NPV. The project's NPV is calculated by
+discounting its cash flows by the cost of capital. In this sense, the cost of capital is the
+discount rate used for evaluating the desirability of an investment project. In the IRR
+method, the investment project is accepted if it has an internal rate of return greater
+than the cost of capital. In this context, the cost of capital is the minimum required rate
+of return on an investment project. It is also known as the cutoff rate, or the hurdle rate.
+An investment project that provides a positive NPV when its cash flows are
+discounted by the cost of capital makes a net contribution to the wealth of shareholders.
+If the project has zero NPV, it means that its cash flows, have yielded a return just equal
+to the cost of capital, and the acceptance or rejection of the project will not affect the
+wealth of shareholders. The cost of capital is the minimum required rate of return on the
+investment project that keeps the present wealth of shareholders unchanged. It may be,
+thus, noted that the cost of capital represents a financial standard for allocating the
+firm's funds, supplied by owners and creditors, to the various investment projects in the
+most efficient manner.
+Designing debt policy
+The debt policy of a firm is significantly influenced by the cost consideration. As
+we shall learn later on, debt helps to save taxes, as interest on debt is a tax-deductible
+expense. The interest tax shield reduces the overall cost of capital, though it also
+increases the financial risk of the firm. In designing the financing policy, that is, the
+proportion of debt and equity in the capital structure, the firm aims at maximising the
+firm value by minimizing the overall cost of capital.
+The cost of capital can also be useful in deciding about the methods of financing
+at a point of time. For example, cost may be compared in choosing between leasing and
+borrowing. Of course, equally important considerations are control and risk.28
+Performance appraisal
+The cost of capital framework can be used to evaluate the financial performance of top
+management.29 Such an evaluation will involve a comparison of actual profitability of the
+investment projects undertaken by the firm with the projected overall cost of capital, and
+the appraisal of the actual costs incurred by management in raising the required funds.
+The cost of capital also plays a useful role in dividend decision and investment in
+current assets.
+2.1.2 Calculation of Cost of Debt
+A company may raise debt in a variety of ways. It may borrow funds from financial
+institutions or public either in the form of public deposits or debentures (bonds) for a
+specified period of time at a certain rate of interest. A debenture or bond may be Issued

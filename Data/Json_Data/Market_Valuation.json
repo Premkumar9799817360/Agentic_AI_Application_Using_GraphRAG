@@ -1,0 +1,10 @@
+{
+  "text": "Financial ratios are essential tools for evaluating the performance, risk, and valuation of companies. Profitability ratios, including Return on Equity (ROE), Net Profit Margin, and Return on Assets (ROA), measure a company’s ability to generate earnings relative to shareholder equity or assets. Liquidity ratios, such as Current Ratio and Quick Ratio, assess the company’s capacity to meet short-term obligations. Leverage ratios, including Debt-to-Equity and Interest Coverage Ratio, indicate financial risk arising from debt usage. Valuation ratios, such as Price-to-Earnings (P/E), Price-to-Book (P/B), and Earnings Per Share (EPS), help investors determine if a stock is overvalued or undervalued. In both Indian and global markets, these ratios are widely used by retail and institutional investors to make informed investment decisions. For example, a company with a high ROE and low debt-to-equity is generally considered financially healthy, while a P/E ratio higher than industry average may indicate overvaluation. Investor sentiment is also influenced by macroeconomic indicators, such as inflation, GDP growth, and central bank interest rate policies. Recent studies indicate that integrating financial ratios with market trends and algorithmic predictions improves the accuracy of investment decisions. Moreover, ESG-related financial metrics are increasingly used to assess long-term sustainability and risk exposure of companies. These metrics provide insight not only into profitability but also into social and governance factors impacting the market and investor trust.",
+  "metadata": {
+    "topic": "Financial Ratios & Market Valuation",
+    "tags": ["financial ratios", "ROE", "ROA", "P/E ratio", "Debt-to-Equity", "EPS", "valuation", "investor insights", "ESG metrics", "macro indicators"],
+    "source_type": "Research & Blog Combined",
+    "date": "2025-12-10",
+    "entities": ["Reliance Industries", "TCS", "Infosys", "Apple", "Microsoft", "Amazon", "BlackRock", "Vanguard"]
+  }
+}

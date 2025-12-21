@@ -1,0 +1,10 @@
+{
+  "text": "The Indian stock market is primarily represented by two major exchanges: the National Stock Exchange (NSE) and the Bombay Stock Exchange (BSE). NSE, established in 1992, is the largest electronic exchange in India and dominates derivatives trading. BSE, founded in 1875, is Asia's oldest stock exchange and is known for listing a large number of small and mid-cap companies. These exchanges facilitate the buying and selling of shares, derivatives, and mutual fund units. The NSE's flagship index, NIFTY 50, comprises 50 of the largest and most liquid companies in India, including Reliance Industries, HDFC Bank, and Infosys. BSE's Sensex includes 30 of the most prominent companies. Stock prices in India are influenced by corporate earnings, macroeconomic factors such as GDP growth, inflation, and interest rates, and global financial conditions. Institutional investors, including mutual funds, insurance companies, and foreign portfolio investors (FPI), play a critical role in liquidity and price movements. Retail investor participation has increased with the advent of digital trading platforms and mobile apps, making equity investments more accessible. Risk management practices, such as circuit breakers, margin requirements, and real-time monitoring by the Securities and Exchange Board of India (SEBI), ensure market stability. Financial ratios like Price/Earnings (P/E), Return on Equity (ROE), and debt-to-equity ratio are commonly used by investors to evaluate stock valuation and corporate health. Recent trends show an increase in algorithmic trading and high-frequency trading, contributing to price discovery and market efficiency.",
+  "metadata": {
+    "topic": "Indian Stock Market",
+    "tags": ["NSE", "BSE", "NIFTY 50", "Sensex", "financial ratios", "corporate earnings", "retail investors", "institutional investors", "macro indicators"],
+    "source_type": "Research & Blog Combined",
+    "date": "2025-12-01",
+    "entities": ["NSE", "BSE", "Reliance Industries", "HDFC Bank", "Infosys", "SEBI"]
+  }
+}

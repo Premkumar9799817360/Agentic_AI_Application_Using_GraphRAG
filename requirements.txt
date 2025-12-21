@@ -1,0 +1,10 @@
+dotenv
+streamlit
+pandas
+numpy
+networkx
+pyvis
+PyPDF2
+scikit-learn
+sentence-transformers
+groq
