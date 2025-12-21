@@ -1,7 +1,3 @@
-# ================================
-# PREPROCESSING WITH METADATA
-# ================================
-
 import os
 import json
 import re
@@ -14,7 +10,6 @@ from Config import DATA_DIR, embed_model, CHUNK_SIZE, CHUNK_OVERLAP, MIN_CHUNK_S
 
 
 def load_documents(data_dir):
-    """Load documents with metadata extraction"""
     docs = []
     for root, _, files in os.walk(data_dir):
         for f in files:
@@ -55,21 +50,20 @@ def load_documents(data_dir):
 
 
 def clean_text(text):
-    """Enhanced text cleaning"""
-    # Remove extra whitespace
+    
     text = re.sub(r"\s+", " ", text)
-    # Remove special characters but keep financial symbols
+
     text = re.sub(r"[^a-zA-Z0-9.,%$()\-/: ]", "", text)
     return text.strip()
 
 
 def chunk_text(text, size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
-    """Chunk text with overlap for context preservation"""
+   
     words = text.split()
     chunks = []
     for i in range(0, len(words), size - overlap):
         chunk = " ".join(words[i:i + size])
-        if len(chunk.split()) > MIN_CHUNK_SIZE:  # Minimum chunk size
+        if len(chunk.split()) > MIN_CHUNK_SIZE:  
             chunks.append(chunk)
     return chunks
 
@@ -89,10 +83,10 @@ def deduplicate_chunks(chunks):
         unique_chunks.append(chunk)
         used_indices.add(i)
         
-        # Find similar chunks
+       
         sims = cosine_similarity([embeddings[i]], embeddings)[0]
         for j, sim in enumerate(sims):
-            if j > i and sim > SIMILARITY_THRESHOLD:  # 95% similarity threshold
+            if j > i and sim > SIMILARITY_THRESHOLD:  
                 used_indices.add(j)
     
     return unique_chunks
@@ -115,11 +109,11 @@ def preprocess():
     
     st.info(f"Created {len(chunks)} chunks")
     
-    # Deduplicate
+    
     chunks = deduplicate_chunks(chunks)
     st.info(f"After deduplication: {len(chunks)} chunks")
     
-    # Generate embeddings
+    
     embeddings = embed_model.encode([c["text"] for c in chunks], show_progress_bar=True)
     
     return chunks, embeddings
