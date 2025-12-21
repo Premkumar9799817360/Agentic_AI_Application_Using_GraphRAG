@@ -295,40 +295,40 @@ File: Streamlit.py
 
 ### Project User Interface Overview
 
-![HomePage](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/ProjectImage/Home_Page.png)
+![HomePage](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/ProjectImage/Home_Page.png)
 
 
 ## 📌 2. Answer of Question (GraphRAG + LLM Response)
 
 ### Intelligent Question Answering using GraphRAG & LLM
 
-![HomePage](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/ProjectImage/Home_Page.png)
+![HomePage](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/ProjectImage/Answer_of_GraphRAG_LLM_Response.png)
 
 
 ## 📌 3. Knowledge Graph & Retrieval Source
 
 ### Knowledge Graph Visualization & Context Retrieval Sources
 
-![Knowledge_graph](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/ProjectImage/Knowledge_Graph_And_Retrieval_Source.png)
+![Knowledge_graph](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/ProjectImage/Knowledge_Graph_And_Retrieval_Source.png)
 
 
 ## 📌 4. Chain-of-Thought (CoT)
 
 ### Multi-Step Reasoning & Chain-of-Thought Explanation
 
-![COT](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/ProjectImage/Chain-of-Thought.png)
+![COT](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/ProjectImage/Chain-of-Thought.png)
 
 ## 📌 5. Evaluation Metrics
 
 ### Model Performance & Evaluation Metrics Analysis
 
-![Evaluation Metrics](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/ProjectImage/Evaluation_Metrics.png)
+![Evaluation Metrics](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/ProjectImage/Evaluation_Metrics.png)
 
 
 ### 📌 6. Previous History
 
 ### User Query History & Past Interactions
 
-![History](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph/blob/main/ProjectImage/Past_Interactions_History.png)
+![History](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/ProjectImage/Past_Interactions_History.png)
 
 
