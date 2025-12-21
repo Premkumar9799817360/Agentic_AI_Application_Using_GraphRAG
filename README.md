@@ -93,6 +93,41 @@ I collected and curated financial data from multiple sources:
 - **Kaggle datasets** containing stock prices and company-related financial data (CSV format)  
 - **JSON-based financial datasets**  
 
+---
+These resources have been collected from multiple high-quality sources including:
+✨ **Google Scholar* 
+✨ **Medium Blogs**  
+✨ **Kaggle**  
+✨ **Research Papers (PDFs)**  
+✨ **Direct Chrome Search (PDFs & Articles)**  
+
+
+
+### 🔗 Research Articles and Papers
+
+1. **Springer Link – Financial Chapter**  
+   [https://link.springer.com/chapter/10.1007/978-0-306-47828-4_21](https://link.springer.com/chapter/10.1007/978-0-306-47828-4_21)
+
+2. **AEA Web – Journal of Economic Perspectives (PDF)**  
+   [https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.27.2.3](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.27.2.3)
+
+3. **Behavioral Finance on Stock Markets (ResearchGate PDF)**  
+  [ https://www.researchgate.net/profile/Ramona-Birau/publication/258698903_THE_IMPACT_OF_BEHAVIORAL_FINANCE_ON_STOCK_MARKETS/links/02e7e53cbe7d89cb92000000/THE_IMPACT_OF_BEHAVIORAL-FINANCE-ON-STOCK-MARKETS.pdf](https://www.researchgate.net/profile/Ramona-Birau/publication/258698903_THE_IMPACT_OF_BEHAVIORAL_FINANCE_ON_STOCK_MARKETS/links/02e7e53cbe7d89cb92000000/THE-IMPACT-OF-BEHAVIORAL-FINANCE-ON-STOCK-MARKETS.pdf)
+
+---
+
+### 📝 Blog & Article References
+
+1. **Medium – Financial Decision Making Challenges**  
+   [https://medium.com/illumination/why-is-it-so-hard-to-make-good-financial-decisions-2f3648591041](https://medium.com/illumination/why-is-it-so-hard-to-make-good-financial-decisions-2f3648591041)
+
+2. **Medium – AI in Personal Finance Management Systems**  
+   [https://medium.com/@david-serrault/on-the-design-of-personal-finance-management-systems-based-on-artificial-intelligence-and-machine-b58898265d2f](https://medium.com/@david-serrault/on-the-design-of-personal-finance-management-systems-based-on-artificial-intelligence-and-machine-b58898265d2f)
+
+--- 
+
+
+
 To ensure efficient experimentation and reduce processing time during early development, CSV datasets were intentionally limited to **100–200 rows**.
 ![GraphRAG Architecture](https://github.com/Premkumar9799817360/Agentic_AI_Application_Using_GraphRAG_MindGraph_AI_Task/blob/main/Images/STORAGE%20LAYER.png)
 ```
