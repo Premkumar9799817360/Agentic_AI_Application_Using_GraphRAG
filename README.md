@@ -95,11 +95,13 @@ I collected and curated financial data from multiple sources:
 
 ---
 These resources have been collected from multiple high-quality sources including:
-✨ **Google Scholar* 
-✨ **Medium Blogs**  
-✨ **Kaggle**  
-✨ **Research Papers (PDFs)**  
-✨ **Direct Chrome Search (PDFs & Articles)**  
+
+
+- ✨ **Google Scholar* 
+- ✨ **Medium Blogs**  
+- ✨ **Kaggle**  
+- ✨ **Research Papers (PDFs)**  
+- ✨ **Direct Chrome Search (PDFs & Articles)**  
 
 
 
