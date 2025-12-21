@@ -53,6 +53,23 @@ financial-graphrag/
 └── agent_memory.json      # Persistent memory storage
 ```
 
+---
+## 🌐 Live Demo
+
+You can test the project live using the link below:
+
+👉 **[Live Testing URL](https://agenticaiapplicationusinggraphrag.streamlit.app/)**  
+
+Or click the button below 👇  
+
+<p align="center">
+  <a href="[https://agripredict-9lbe.onrender.com/](https://agenticaiapplicationusinggraphrag.streamlit.app/)" target="_blank">
+    <img src="https://img.shields.io/badge/🔗%20Open%20Live%20App-00C853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live App Button"/>
+  </a>
+</p>
+---
+
+
 # 1. Data Collection & Knowledge Base Construction
 
 ## Domain Selection
