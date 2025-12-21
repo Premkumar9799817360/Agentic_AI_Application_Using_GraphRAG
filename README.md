@@ -411,9 +411,9 @@ streamlit run streamlit_app.py
 ## 5️⃣ Open in Browser
 Streamlit will automatically open the application in your default browser.
 If it does not open automatically, manually visit:
-
+```bash
 http://localhost:8501
-
+```
 ## ⚠️ Note
 - First run may take some time because multiple files, graphs, and models are loaded.
 - Ensure Python or above is installed on your system.
