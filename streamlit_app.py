@@ -56,7 +56,7 @@ def main():
         
         if st.button("Clear Graph Cache"):
             import os
-            from Agentic_AI_Application_Using_GraphRAG_MindGraph.Config import GRAPH_FILE
+            from Config import GRAPH_FILE
             if os.path.exists(GRAPH_FILE):
                 os.remove(GRAPH_FILE)
                 st.success("Graph cache cleared!")
