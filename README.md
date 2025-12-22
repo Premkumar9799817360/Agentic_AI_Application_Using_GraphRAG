@@ -41,7 +41,7 @@ financial-graphrag/
 ├── Data/
 │   ├── csv_Data/          # 3 CSV files with stock prices and company data
 │   ├── json_Data/         # 5 JSON files with financial data
-│   ├── pdf_Data/          # 8 PDF files (research papers, reports)
+│   ├── pdf_Data/          # 12 PDF files (research papers, reports)
 │   └── textfile_data/     # 6 text files (articles, documentation)
 ├── Preprocessing.py       # Document loading, cleaning, chunking, embedding
 ├── GraphBuilding.py       # Knowledge graph construction and visualization
@@ -138,7 +138,7 @@ To ensure efficient experimentation and reduce processing time during early deve
 Data/
 ├── csv_Data/        (3 CSV files)
 ├── json_Data/       (5 JSON files)
-├── pdf_Data/        (8 PDF files)
+├── pdf_Data/        (12 PDF files)
 └── textfile_data/   (6 TXT files)
 ```
 
